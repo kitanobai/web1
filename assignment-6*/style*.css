@@ -1,0 +1,350 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant:400,500,700|Roboto:300,400,500,700';
+body{
+    
+    font-family:'Roboto',arial,sans-serif;
+    font-weight:400;
+    background-color:#f1f1f1;
+    color:#333;
+    margin:0;
+    
+}
+
+a,a:visited{
+    text-decoration:none;
+    color:#d69e00;
+}
+a:hover{
+    color:#e4b532;
+}
+
+/*Hero***************************************************Hero*/
+.hero{
+    text-align:center;
+    overflow:auto;
+    /*assignment-6*/
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}/*6*/
+.hero-card{
+    border:2px solid #fff;
+    width:800px;
+    /*assignment-6*/
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.73);
+    color: #efefef;
+    margin: 110px auto 60px auto;
+    padding: 50px;
+    max-width: 960px;
+    text-align: center;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+    
+}/*6*/
+.hero-card-title{
+    /*assignment-6*/
+    margin:0;
+    font-size:50px;
+    font-family: 'Cormorant', cursive;
+}/*6*/
+.hero-card-description{
+    /*assignment-6*/
+    font-family: 'Cormorant', cursive;
+    font-size:30px;
+    font-weight:300;
+    margin:20px 0;
+    
+}/*6*/
+a.hero-card-link{
+    /*assignment-6*/
+    text-decoration:none;
+    color:#efefef;
+    border:2px solid #efefef;
+    font-size:18px;
+    padding:5px 20px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}/*6*/
+a.hero-card-link:hover{
+    /*assignment-6*/
+    color:#D69E00;
+    border-color:#D69E00;
+}/*6*/
+
+/*home*/
+.card{
+    background-color:#fff;
+    box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+    width:calc(33.3% - 20px);
+    min-height:310px;
+    margin:10px;
+    float:left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
+    
+}
+.card:hover{
+    transform:scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    
+}
+.card-title{
+    padding: 0 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Cormorant',cursive;
+    font-size: 24px;
+    
+}
+.card-description{
+    padding:0 20px;
+    margin:0 0 20px 0;
+    color: #999;
+}
+
+/*navigation***************************************navigation*/
+.main-nav{
+    max-width:960px;
+    margin:20px auto;
+    text-align: right;
+}
+a.nav-link{
+    box-sizing:border-box;
+    color:#fff;
+    text-decoration:none;
+    height:40px;
+    line-height:38px;
+    font-size:20px;
+    font-family:'Cormorant',cursive;
+    display: inline-block;
+    margin:10px 5px;
+    padding:0px 15px;  /*10 px*/
+    border-radius:20px;
+    border:2px solid rgba(255,255,255,0);
+    transition:all 0.2s ease;
+    
+    
+}
+a.nav-link:hover{
+    color:#FFD86B;
+    border-color:#FFD86B;
+    background-color:rgba(0,0,0,0.4);
+    
+}
+
+/*************************************************main content*/
+.main-content{
+    margin:50px auto;
+    width:960px;
+}
+
+/*footer*/
+footer{
+    background-color:#333;
+    color:#999;
+    padding:20px;
+    text-align:center;
+    
+}
+.footer-link{
+    color:#AB10A;
+    text-decoration:none;
+    
+}
+.footer-link:hover{
+    color:#D69E00;
+    text-decoration:underline;
+}
+
+/*search*/
+.search-placeholder{
+    width:600px;
+    height:400px;
+    background-color:#ddd;
+    margin:20px auto;
+    padding:20px;
+}
+
+
+/*assignments*/
+.assignments-list{
+    border:4px solid #ddd;
+    padding:20px;
+    margin:20px;
+    width:860px;
+}
+
+/*coffee*/
+.coffee-quote{
+    font-size:30px;
+    color:#16445f;
+    
+}
+.menu th{
+    padding: 10px;
+    
+}
+.menu.size{
+    min-width:150px;
+    text-align:right;
+    font-size:14px;
+}
+.menu td{
+    padding:10px 10px;
+    vertical-align:top;
+    text-align:right;
+    
+}
+.menu dd{
+    margin-left:0;
+    color:#666;
+    font-style:italic;
+    font-size:14px;
+    
+}
+.menu.lable{
+    text-align:left;
+    
+}
+
+
+/*about*/
+.about-list-container{
+    border-left:5px solid #d69e00;
+    margin-bottom:50px;
+    padding:20px 50px;
+}
+.about-photo{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    
+}
+.about-list-title{
+    font-size:30px;
+    font-weight:400;
+    color:#d69e00;
+}
+.about-list{
+    font-size:24px;
+    
+}
+.about-list li{
+    margin:1em auto;
+}
+
+#logo{
+    float:left;
+    margin-right:100px;
+    width:0;
+    height:0;
+    color:rgba(255,255,255,0);
+    padding:60px 160px 0 0;
+    background-image:url('images/logo.png');
+    background-size:120px 60px;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:3px;
+    transition:all 0.2s ease;
+    
+}
+#logo:hover{
+    background-color:rgba(0,0,0,0.4);
+}
+
+.clear{
+    clear:both;
+}
+
+/*assignment-6* update*/
+/**********************************/
+/*search*/
+.search-form{
+    background-color:#ffffff;
+    box-shadow:1px 2px 2px rgba(0,0,0,0.1);
+    padding:40px;
+    
+}
+label{
+    margin-right: 10px;
+    
+}
+input{
+    border:1px solid #ddd;
+    height: 30px;
+    width: 630px;
+    font-size: 14px;
+    padding: 1 10px;
+    
+}
+button{
+    background-color: #3c8bce;
+    height: 32px;
+    margin-left: 10px;
+    padding: 0 20px;
+    border:0;
+    color:#fff;
+    font-size: 14px;
+    border-radius: 3px;
+    
+}
+
+
+/*assignment*/
+.assignment-list dt{
+    margin-top: 20px;
+    
+}
+.assignemnt-list a {
+    color: #3c8bce;
+    font-size:18px;
+
+}
+.assignemnt-list a:hover{
+    color: #115690;
+    
+}
+.assignemnt-list dd{
+    margin-left: 0;
+    
+}
+
+/*coffee*/
+.coffee-quote{
+    
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 15px;
+    border-left: 5px solid #d69e00;
+    
+}
+cite{
+    display: block;
+    color: #666;
+    font-size: 16px;
+    
+}
+.menu th{
+    min-width: 150px;
+    text-align: right;
+    font-size: 14px;
+    
+}
+.menu td{
+    padding: 10px 10px;
+    vertical-align: top;
+    text-align: right;
+    
+}
+.menu dd{
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+    
+}
+.menu .lable{
+    text-align:left;
+    
+}
